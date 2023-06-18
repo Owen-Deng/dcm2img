@@ -72,7 +72,7 @@
 #ifdef BUILD_DCM2PNM_AS_DCML2PNM
 # define OFFIS_CONSOLE_APPLICATION "dcml2pnm"
 #elif defined(BUILD_DCM2PNM_AS_DCMJ2PNM)
-# define OFFIS_CONSOLE_APPLICATION "dcmj2pnm"
+# define OFFIS_CONSOLE_APPLICATION "dcm2img"
 #else
 # define OFFIS_CONSOLE_APPLICATION "dcm2pnm"
 #endif
